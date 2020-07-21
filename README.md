@@ -1,4 +1,4 @@
-# teste-java
+# teste-java: tem o propósito de armazenar os projetos durante o aprendizado de Java.
 
 https://docs.oracle.com/javase/8/docs/api/
 
