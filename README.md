@@ -75,3 +75,4 @@ https://docs.oracle.com/javase/8/docs/api/
    - private static final long serialVersionUID = 1L; //Não obrigatório colocar explicitamente o atributo serialVersionUID, mas é boa prática.
   
   ### Collections
+
