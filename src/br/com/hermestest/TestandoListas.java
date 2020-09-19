@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class TestandoListas {
-
+	
 	public static void main(String[] args) {
 		String aula1 = "Conhecendo mais de listas";
 		String aula2 = "Modelando a classe aula";
