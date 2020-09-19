@@ -75,4 +75,19 @@ https://docs.oracle.com/javase/8/docs/api/
    - private static final long serialVersionUID = 1L; //Não obrigatório colocar explicitamente o atributo serialVersionUID, mas é boa prática.
   
   ### Collections
-
+  
+  No codigo abaixo, estamos comparando o parametro tempo para ordenar o array. Array este composto pelo titulo da aula e seu tempo:
+  
+  	public static void main(String[] args) {
+		Aula a1 = new Aula("Revisando ArrayLists", 18);
+		Aula a2 = new Aula("Listas de objetos", 15);
+		Aula a3 = new Aula("Relacionamentos de Listas e Objetos", 16);
+		
+		ArrayList<Aula> aulas = new ArrayList<>();
+		aulas.add(a1);
+		aulas.add(a2);
+		aulas.add(a3); 
+		
+  	aulas.sort(Comparator.comparing(Aula::getTempo));
+  
+  
