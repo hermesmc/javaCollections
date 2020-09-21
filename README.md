@@ -90,4 +90,8 @@ https://docs.oracle.com/javase/8/docs/api/
 		
   	aulas.sort(Comparator.comparing(Aula::getTempo));
   
+  CompareTo na classe aula:  
   
+  	public int compareTo(Aula outraAula) {
+		return this.titulo.compareTo(outraAula.titulo);
+	}
