@@ -96,3 +96,8 @@ https://docs.oracle.com/javase/8/docs/api/
   	public int compareTo(Aula outraAula) {
 		return this.titulo.compareTo(outraAula.titulo);
 	}
+
+  ArrayList X LinkedList
+  
+  - O ArrayList funciona muito bem em listas grandes que não vão sofrer alterações de posição dos registros. 
+  - Já a LinkedList adiciona muito rápido elemestos na lista. MAs para buscar um determinado registro ela é mais lenta.
