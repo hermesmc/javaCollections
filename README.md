@@ -1,6 +1,7 @@
 # Teste-java: 
 
 Tem o propósito de armazenar os projetos durante o aprendizado de Java.
+Somente o objeto muda os atributos deste mesmo objeto, fica a dica.
 
 ## Documentação Java
 
