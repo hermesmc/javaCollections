@@ -9,11 +9,16 @@ https://docs.oracle.com/javase/8/docs/api/
 
 ## Indice
 
+- Atalhos úteis do Eclipse
 - Pacotes Java:
   - Java.lang
   - Java.util
   - Java.io
 - Collections  
+
+# Atalhos úteis do Eclipse
+ - CTRL + 3 e GCUF: Para criar o metodo contrutor;
+ - CTRL + 3 e GGAS: Para criar os metodos Getters and Setters;
 
 # - java.lang
  É basicamente o pacote que te fornece classes fundamentais para começar a programar em JAVA, como String, Object, entre outras.
