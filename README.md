@@ -19,6 +19,7 @@ https://docs.oracle.com/javase/8/docs/api/
 # Atalhos úteis do Eclipse
  - CTRL + 3 e GCUF: Para criar o metodo contrutor;
  - CTRL + 3 e GGAS: Para criar os metodos Getters and Setters;
+ - sysout + CTRL+ENTER = System.out.println();
 
 # - java.lang
  É basicamente o pacote que te fornece classes fundamentais para começar a programar em JAVA, como String, Object, entre outras.
@@ -81,6 +82,8 @@ https://docs.oracle.com/javase/8/docs/api/
    - private static final long serialVersionUID = 1L; //Não obrigatório colocar explicitamente o atributo serialVersionUID, mas é boa prática.
   
   ### Collections
+  
+  https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html
   
   No codigo abaixo, estamos comparando o parametro tempo para ordenar o array. Array este composto pelo titulo da aula e seu tempo:
   
