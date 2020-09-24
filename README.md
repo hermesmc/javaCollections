@@ -9,11 +9,17 @@ https://docs.oracle.com/javase/8/docs/api/
 
 ## Indice
 
+- Atalhos úteis do Eclipse
 - Pacotes Java:
   - Java.lang
   - Java.util
   - Java.io
 - Collections  
+
+# Atalhos úteis do Eclipse
+ - CTRL + 3 e GCUF: Para criar o metodo contrutor;
+ - CTRL + 3 e GGAS: Para criar os metodos Getters and Setters;
+ - sysout + CTRL+ENTER = System.out.println();
 
 # - java.lang
  É basicamente o pacote que te fornece classes fundamentais para começar a programar em JAVA, como String, Object, entre outras.
@@ -77,6 +83,8 @@ https://docs.oracle.com/javase/8/docs/api/
   
   ### Collections
   
+  https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html
+  
   No codigo abaixo, estamos comparando o parametro tempo para ordenar o array. Array este composto pelo titulo da aula e seu tempo:
   
   	public static void main(String[] args) {
@@ -101,3 +109,8 @@ https://docs.oracle.com/javase/8/docs/api/
   
   - O ArrayList funciona muito bem em listas grandes que não vão sofrer alterações de posição dos registros. 
   - Já a LinkedList adiciona muito rápido elemestos na lista. MAs para buscar um determinado registro ela é mais lenta.
+  
+  List X Set
+  
+  As listas possuem indices e são mais lentas que os conjuntos(sets). A grande vantagem dos conjuntos é a veloidade. 
+  Mas não permitem ser ordenadas e a consulta de elemento pelo indice.
