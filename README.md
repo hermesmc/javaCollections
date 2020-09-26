@@ -128,3 +128,4 @@ https://docs.oracle.com/javase/8/docs/api/
 	public int hashCode() {
 		return this.nome.hashCode();
 	}
+   Desta forma vpcê garante que na tabela de espalhamento o hash do nome será sempre o mesmo.	
