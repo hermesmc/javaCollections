@@ -24,7 +24,13 @@ public class TestaCursoComAluno {
 			
 		});
 		
+		System.out.println(javaColecoes.estaMatriculado(a1));
 		
+		Aluno turini = new Aluno("Rodrigo Rodrigues", 34672);
+		System.out.println(a1.equals(turini));
+		
+		System.out.println("O Hash code é igual? ");
+		System.out.println(a1.hashCode() == turini.hashCode());
 		
 	}
 

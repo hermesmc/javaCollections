@@ -6,6 +6,9 @@ public class Aluno {
 	private int numeroMatricula;
 
 	public Aluno(String nome, int numeroMatricula) {
+		if(nome == null) {
+			throw new NullPointerException("Nome não pode ser vazio");
+		}
 		this.nome = nome;
 		this.numeroMatricula = numeroMatricula;
 	}
@@ -26,6 +29,19 @@ public class Aluno {
 	public String toString() {
 		return "[Aluno: " + this.nome + ", matricula: " + this.numeroMatricula + "]";
 		
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		//cast
+		Aluno outro = (Aluno)obj;
+		return this.nome.equals(outro.nome); 
+		
+	}
+	
+	@Override
+	public int hashCode() {
+		return this.nome.hashCode();
 	}
 
 }
