@@ -114,3 +114,18 @@ https://docs.oracle.com/javase/8/docs/api/
   
   As listas possuem indices e são mais lentas que os conjuntos(sets). A grande vantagem dos conjuntos é a veloidade. 
   Mas não permitem ser ordenadas e a consulta de elemento pelo indice.
+
+  Em listas, ao redefinir o metodo equals, o método hash também deve ser sobreescrito:
+  
+  	@Override
+	public boolean equals(Object obj) {
+		//cast
+		Aluno outro = (Aluno)obj;
+		return this.nome.equals(outro.nome); 		
+	}
+	
+	@Override
+	public int hashCode() {
+		return this.nome.hashCode();
+	}
+   Desta forma vpcê garante que na tabela de espalhamento o hash do nome será sempre o mesmo.	
