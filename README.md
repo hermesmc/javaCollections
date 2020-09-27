@@ -105,12 +105,12 @@ https://docs.oracle.com/javase/8/docs/api/
 		return this.titulo.compareTo(outraAula.titulo);
 	}
 
-  ArrayList X LinkedList
+  ## ArrayList X LinkedList
   
   - O ArrayList funciona muito bem em listas grandes que não vão sofrer alterações de posição dos registros. 
   - Já a LinkedList adiciona muito rápido elemestos na lista. MAs para buscar um determinado registro ela é mais lenta.
   
-  List X Set
+  ## List X Set
   
   As listas possuem indices e são mais lentas que os conjuntos(sets). A grande vantagem dos conjuntos é a veloidade. 
   Mas não permitem ser ordenadas e a consulta de elemento pelo indice.
