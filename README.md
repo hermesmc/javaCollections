@@ -132,4 +132,11 @@ https://docs.oracle.com/javase/8/docs/api/
 
    ## Código legado de coleções
    
-   O  Iterator é um objeto que todas as coleções nos dão acesso, que serve para iterar entre os elementos dentro da coleção, selecionando sempre o próximo objeto da coleção
+   O  Iterator é um objeto que todas as coleções nos dão acesso, que serve para iterar entre os elementos dentro da coleção, selecionando sempre o próximo objeto da coleção.
+   Um outro objeto antigo que pode ser citado é o Vector, que era utilizado antes da interface Collection existir (Collection existe desde o Java 1.2):
+
+   Vector<Aluno> vetor = new Vector<>();
+
+   Essa classe é muito antiga e se parece com o ArrayList, inclusive ela implementa List atualmente. A diferença é que ela pode ser utilizada por várias threads simultaneamente, chamado de thread safe. 
+   
+   
