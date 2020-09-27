@@ -129,3 +129,7 @@ https://docs.oracle.com/javase/8/docs/api/
 		return this.nome.hashCode();
 	}
    Desta forma vpcê garante que na tabela de espalhamento o hash do nome será sempre o mesmo.	
+
+   ## Código legado de coleções
+   
+   O  Iterator é um objeto que todas as coleções nos dão acesso, que serve para iterar entre os elementos dentro da coleção, selecionando sempre o próximo objeto da coleção
