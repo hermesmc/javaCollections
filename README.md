@@ -105,12 +105,12 @@ https://docs.oracle.com/javase/8/docs/api/
 		return this.titulo.compareTo(outraAula.titulo);
 	}
 
-  ArrayList X LinkedList
+  ## ArrayList X LinkedList
   
   - O ArrayList funciona muito bem em listas grandes que não vão sofrer alterações de posição dos registros. 
   - Já a LinkedList adiciona muito rápido elemestos na lista. MAs para buscar um determinado registro ela é mais lenta.
   
-  List X Set
+  ## List X Set
   
   As listas possuem indices e são mais lentas que os conjuntos(sets). A grande vantagem dos conjuntos é a veloidade. 
   Mas não permitem ser ordenadas e a consulta de elemento pelo indice.
@@ -129,3 +129,14 @@ https://docs.oracle.com/javase/8/docs/api/
 		return this.nome.hashCode();
 	}
    Desta forma vpcê garante que na tabela de espalhamento o hash do nome será sempre o mesmo.	
+
+   ## Código legado de coleções
+   
+   O  Iterator é um objeto que todas as coleções nos dão acesso, que serve para iterar entre os elementos dentro da coleção, selecionando sempre o próximo objeto da coleção.
+   Um outro objeto antigo que pode ser citado é o Vector, que era utilizado antes da interface Collection existir (Collection existe desde o Java 1.2):
+
+   Vector<Aluno> vetor = new Vector<>();
+
+   Essa classe é muito antiga e se parece com o ArrayList, inclusive ela implementa List atualmente. A diferença é que ela pode ser utilizada por várias threads simultaneamente, chamado de thread safe. 
+   
+   
