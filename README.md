@@ -141,3 +141,13 @@ https://docs.oracle.com/javase/8/docs/api/
    
    TreeSet:  já ordena os seus elementos na hora da inserção. O critério da ordenação depende e pode ser definido através de um Comparator.
    
+   Interface Map
+   
+   Essa interface permite associar um determinado registro a um valor. Sendo assim podemos pesquisar um número de matrícula, que não faz parte do hash, e localizá-lo.
+   
+   Cursos que merecem ser feitos:
+    OO: Melhores técnicas com Java
+    SOLID com Java
+    Design Patterns Java I
+    Design Patterns Java II
+   
