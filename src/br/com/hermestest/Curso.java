@@ -2,10 +2,13 @@ package br.com.hermestest;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
+import java.util.NoSuchElementException;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -16,6 +19,7 @@ public class Curso {
 	private Set<Aluno> alunos = new HashSet<>();
 	//private Set<Aluno> alunos = new LinkedHashSet<>();
 	//private Set<Aluno> alunos = new TreeSet<>(); //Apenas com classes comparable
+	private Map<Integer, Aluno> matriculaParaAluno = new HashMap<>();
 	
 	public Curso(String nome, String instrutor) {
 		this.nome = nome;
@@ -55,13 +59,14 @@ public class Curso {
 	
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
 		return "[Curso: " + nome + "tempo total:" + this.getTempoTotal() + "]";
 	}
 
 
 	public void matricula(Aluno aluno) {
-		this.alunos.add(aluno);		
+		this.alunos.add(aluno);	
+		//Usando o mapa
+		this.matriculaParaAluno.put(aluno.getNumeroMatricula(), aluno);
 	}
 	
 	public Set<Aluno> getAlunos(){
@@ -72,6 +77,14 @@ public class Curso {
 
 	public boolean estaMatriculado(Aluno aluno) { 		
 		return this.alunos.contains(aluno);
-	} 
-	
+	}
+
+
+	public Aluno buscaMatriculado(int numero) {
+		if(!matriculaParaAluno.containsKey(numero)) {
+			throw new NoSuchElementException("Aluno não encontrado");
+		}
+		return matriculaParaAluno.get(numero);
+	}
+
 }
