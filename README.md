@@ -139,4 +139,5 @@ https://docs.oracle.com/javase/8/docs/api/
 
    Essa classe é muito antiga e se parece com o ArrayList, inclusive ela implementa List atualmente. A diferença é que ela pode ser utilizada por várias threads simultaneamente, chamado de thread safe. 
    
+   TreeSet:  já ordena os seus elementos na hora da inserção. O critério da ordenação depende e pode ser definido através de um Comparator.
    
