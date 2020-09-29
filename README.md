@@ -24,6 +24,10 @@ https://docs.oracle.com/javase/8/docs/api/
  - CTRL + 3 e GCUF: Para criar o metodo contrutor;
  - CTRL + 3 e GGAS: Para criar os metodos Getters and Setters;
  - sysout + CTRL+ENTER = System.out.println();
+ 
+ Verificando a versão do Java no Eclipse:
+ 
+ Window - > Preferences -> Java -> Installed JRE's
 
 # - java.lang
  É basicamente o pacote que te fornece classes fundamentais para começar a programar em JAVA, como String, Object, entre outras.
