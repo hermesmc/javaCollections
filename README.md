@@ -21,9 +21,17 @@ https://docs.oracle.com/javase/8/docs/api/
 - Collections  
 
 # Atalhos úteis do Eclipse
- - CTRL + 3 e GCUF: Para criar o metodo contrutor;
- - CTRL + 3 e GGAS: Para criar os metodos Getters and Setters;
+ - CTRL+1: Criar os métodos;
+ - CTRL+3 e GCUF: Para criar o metodo contrutor; 
+ - CTRL+3 e GGAS: Para criar os metodos Getters and Setters;
  - sysout + CTRL+ENTER = System.out.println();
+ - main + CTRL+SPACE = 
+ 
+ 	public static void main(String[] args) {
+
+	}
+ - CTRL+SHIFT+F = formata o código (endentando)
+ - foreach + CTRL+SPACE + ENTER = Gera um "for";
  
  Verificando a versão do Java no Eclipse:
  
