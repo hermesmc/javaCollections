@@ -3,6 +3,10 @@
 Tem o propósito de armazenar os projetos durante o aprendizado de Java.
 Somente o objeto muda os atributos deste mesmo objeto, fica a dica.
 
+## O que é Java?
+
+Java é a linguagem de programação mais usada no mundo, segundo o famoso ranking da TIOBE. É uma linguagem orientada a objeto, multiplataforma e bastante completa por permitir a criação de um programa único para uso em diversas plataformas. A plataforma Java ganhou muitos mercados diferentes - da Web ao Desktop em grandes empresas e governos, passando por mobile e IoT. Mas o grande mercado Java hoje ainda é o back-end em sistemas Web.
+
 ## Documentação Java
 
 https://docs.oracle.com/javase/8/docs/api/
